@@ -2,7 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import Menu from "./Menu";
 
-const Portfolio = () => {
+const Folio = () => {
   const items = Menu;
   return (
     <section className="work container section" id="work">
@@ -40,4 +40,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Folio;
